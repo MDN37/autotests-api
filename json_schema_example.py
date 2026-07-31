@@ -2,18 +2,18 @@ from jsonschema import validate, ValidationError
 
 # Пример схемы
 schema = {
-  "type": "object",
-  "properties": {
-    "name": { "type": "string" },
-    "age": { "type": "number" }
-  },
-  "required": ["name"]
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "age": {"type": "number"}
+    },
+    "required": ["name"]
 }
 
 # Пример данных
 data = {
-  "name": "John Doe",
-  "age": 30
+    "name": "John Doe",
+    "age": 30
 }
 
 try:
