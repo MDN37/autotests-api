@@ -44,4 +44,3 @@ def assert_is_true(actual: Any, name: str):
         f'Incorrect value: "{name}". '
         f'Expected true value but got: {actual}'
     )
-    
